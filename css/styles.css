@@ -1,9 +1,6 @@
-h1 {
-  color: cornflowerblue;
-}
-h2 {
-  color: blueviolet;
-}
-h3 {
-  color: deeppink;
+.card {
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  border: 1px solid;
+  margin: 50px;
 }

@@ -5,28 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моё резюме</title>
+    <title>hw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 
 <body>
     <header></header>
     <main>
-        <link rel="stylesheet" href="css/styles.css">
-        <h1>Мое резюме</h1>
-        <img src="./photo_2023-06-09_12-16-01.jpg" alt="Фото для резюме" width="400">
-        <p>Вороновская Мария</p>
-        <h2>Контакты:</h2>
+        <h1>Регистрация:</h1>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label>
+                Email:
+                <input type="email" placeholder="Введите ваш Email">
+            </label>
 
-        Телефон:
-        <a href="tel:+380505898289">+380505ХХХХХХ</a>
-        Почта:
-        <a href="mailto:mariavironovskaya@gmail.com">mariavironovskaya@gmail.com</a>
+            <br>
 
-        <h3>Обо мне:</h3>
-        <p>Монтирую видео, редактирую фото в Fotoshop.</p>
-        <h3>Образование:</h3>
-        <p>Учусь в школе.</p>
+            <label>
+                Пароль:
+                <input type="password" placeholder="Введите ваш Пароль">
+            </label>
+
+            <br>
+            <button type="submit">
+                Зарегестрироваться
+            </button>
+            <br>
+            <br>
+            Авторизоваться:
+            <label>
+                <br>
+                Email:
+                <input type="email" placeholder="Введите ваш Email">
+            </label>
+
+            <br>
+
+            <label>
+                Пароль:
+                <input type="password" placeholder="Введите ваш Пароль">
+            </label>
+
+            <br>
+            <button type="submit">
+                Авторизоваться
+            </button>
+            <label>
+                <br>
+                <br>
+                Тип кузова:
+                <input type="text" placeholder="Тип кузова">
+            </label>
+            <label>
+                <br>
+                Марка авто:
+                <input type="text" placeholder="Марка авто">
+            </label>
+            <label>
+                <br>
+                Країна виробника:
+                <input type="text" placeholder="Країна виробника">
+            </label>
+            <label>
+                <br>
+                Цена:
+                <input type="text" placeholder="От"></label>
+            <label>
+                <input type="text" placeholder="До"></label>
+            <label>
+                <br>
+                Рік випуску:
+                <input type="number" min="1900" max="2023">
+            </label>
+            <label>
+                <br>
+                Стан:
+                <input type="text" placeholder="Опишить стан машини">
+            </label>
+            <label>
+                <br>
+                Тип палива:
+                <input type="text" placeholder="Тип палива">
+            </label>
+            <label>
+                <br>
+                Тип коробки передач:
+                <input type="text" placeholder="Тип коробки передач">
+            </label>
+            <label>
+                <br>
+                Цвет:
+                <input type="color">
+            </label>
+            <br>
+            Комфорт:
+            <select>
+                <option value="1">Комфорт</option>
+                <option value="2">Люкс</option>
+                <option value="3">Кожаный салон</option>
+            </select>
+        </form>
     </main>
 </body>
 
